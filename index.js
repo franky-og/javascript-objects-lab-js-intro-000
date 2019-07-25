@@ -6,3 +6,7 @@ function updateObjectWithKeyAndValue(recipes, food, ingredients) {
   newRecipe[food] = ingredients;
   return newRecipe;
 }
+function destructivelyUpdateObjectWithKeyAndValue(recipes,food, ingredients) {
+  recipe[food] = ingredients;
+  return recipe;
+}
